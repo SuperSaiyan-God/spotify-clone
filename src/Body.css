@@ -1,0 +1,90 @@
+.body {
+    flex: 0.9;
+    height: 100vh;
+    color: white;
+    padding: 30px;
+    overflow-y: overlay;
+    background: linear-gradient(rgb(88, 114, 155), rgba(0, 0, 0, 1));
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+}
+
+.body_info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.body_infoText {
+    flex: 1;
+}
+
+.body_infoText > h2 {
+    font-size: 88px;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    font-size: 14px;
+    color: rgb(202, 199, 199);
+}
+
+.hardcode {
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.body_infoText > strong {
+    font-size: 13px;
+}
+
+.body_info > img {
+    height: 16vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body_icons {
+    display: flex;
+    align-items: center;
+}
+
+.body_icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.body_shuffle {
+    font-size: 68px !important;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1ed15e;
+}
+
+.body_shuffle:hover {
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
+.play {
+    color: rgb(202, 199, 199);
+}
+
+.horiz {
+    color: rgb(202, 199, 199);
+}
+
+.play:hover {
+    color: white;
+}
+
+.horiz:hover {
+    color: white;
+}
+
+.body_songs {
+    margin: 20px -30px;
+
+}
